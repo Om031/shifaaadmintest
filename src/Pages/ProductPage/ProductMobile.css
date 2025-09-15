@@ -1,0 +1,185 @@
+:root {
+    --primary-color: #62cc90;
+    --text-color: #ffffff;
+    --background-color: #1c1c1c;
+    --border-radius: 16px;
+    --font-family: "Tajawal", sans-serif;
+  }
+  
+  /* Main Container */
+  .product-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-color);
+    max-width: 100%;
+    width: 100%;
+    background-color: var(--background-color);
+    height: 100vh;
+    overflow-y: scroll;
+  }
+  
+  /* Header Section (Image + Info) */
+  .product-header1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  /* Product Image */
+  .product-image1 img {
+    height: 120px;
+    width: 120px;
+    margin-top: 50px;
+    border-radius: var(--border-radius);
+
+  }
+  .product-image1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+  }
+  
+  /* Product Info */
+  .product-info11 {
+    font-family: var(--font-family);
+    width: 90%;
+    border-radius: 20px;
+    background: #1c1c1c;
+    box-shadow: 0px 2px 10px #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+
+  }
+  
+  /* Titles */
+  .product-title1 {
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--text-color);
+  }
+  
+  /* Descriptions */
+  .product-main-description1 {
+    font-size: 14px;
+    margin-top: 5px;
+    line-height: 1.3;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .product-extra-description1 {
+    font-size: 12px;
+    margin-top: 5px;
+    color: #bbb;
+    font-style: italic;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  /* Ingredients Carousel */
+  .ingredients-carousel1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 20px;
+    background: #1c1c1c;
+    box-shadow: 0px 2px 10px #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .carousel-container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .ingredient-item1 {
+    font-size: 16px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: var(--border-radius);
+  }
+  
+  .carousel-btn1 {
+    background: none;
+    border: none;
+    color: var(--primary-color);
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  /* Price */
+  .product-price1 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Add to Cart Button */
+  .add-to-cart1 {
+    width: 90%;
+    max-width: 300px;
+    padding: 12px;
+    background: var(--primary-color);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: 0.3s;
+    height: 40px;
+  }
+  
+  .add-to-cart1:hover {
+    background: #3b9b74;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .product-header1 {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .product-image1 img {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .product-title1 {
+      font-size: 16px;
+    }
+  
+    .product-main-description1 {
+      font-size: 14px;
+    }
+  
+    .product-extra-description1 {
+      font-size: 12px;
+    }
+  
+    .product-price1 {
+      font-size: 16px;
+    }
+  
+    .add-to-cart1 {
+      font-size: 16px;
+    }
+  }
+  

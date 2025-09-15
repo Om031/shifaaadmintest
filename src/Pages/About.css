@@ -1,0 +1,196 @@
+/* About.css */
+
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    --accent-color: #62cc90;
+    --bg-color: #181818;
+    --container-bg: #1c1c1c;
+    --text-color: #ffffff;
+    --paragraph-color: #b3b3b3;
+  }
+  
+  /* Main flex container for About section */
+  .flex-row1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: center; */
+    /* background: var(--bg-color); */
+    background: url(../assets/images/back1.png);
+    padding-right: 140px;
+    height: 100vh;
+  }
+  
+  /* Image styling – adjust the background image URL as needed */
+  .image1 {
+    flex: 1;
+    min-width: 300px;
+    max-width: 50vw;
+    height: 60vh;
+    background: url(../assets/images/AboutUs.png) no-repeat center;
+    background-size: cover;
+    border-radius: 16px;
+    margin: 10px;
+  }
+    /* Image styling – adjust the background image URL as needed */
+    .image33 {
+      flex: 1;
+      min-width: 300px;
+      max-width: 30vw;
+      height: 30vh;
+      background: url(../assets/images/AboutUs.png) no-repeat center;
+      background-size: cover;
+      border-radius: 16px;
+      margin: 10px;
+    }
+  
+  /* Text container styling */
+  .text-container1 {
+    flex: 1;
+    min-width: 300px;
+    max-width: 50vw;
+    height: 45vh;
+    background: var(--bg-color);
+    border-bottom-right-radius: 80px;
+    padding: 20px;
+    margin: 10px;
+    position: relative;
+    left:200px
+  }
+  
+  /* Title text styling */
+  .l-text-e1 {
+    font-family: var(--default-font-family);
+    font-size: 48px;
+    font-weight: 800;
+    color: var(--accent-color);
+    margin-bottom: 20px;
+    text-align: right;
+  }
+  
+  /* Paragraph styling */
+  .paragraph1 {
+    font-family: var(--default-font-family);
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+    max-height: 28vh;
+    color: var(--paragraph-color);
+    text-align: right;
+    overflow-y: auto; /* vertical scrollbar */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+  }
+
+  .scrollable-div::-webkit-scrollbar {
+    display: none; /* WebKit browsers (Chrome, Safari, Opera) */
+  }
+
+  .abstract-design1 {
+    position: absolute;
+    width: 480px;
+    height: 505px;
+    top: 0;
+    right: 0px;
+    /* background: url(../assets/images/d061553d-e9cb-4090-b907-6855239e8df2.png)
+      no-repeat center; */
+    background-size: cover;
+    z-index: 44;
+    background-color: red;
+  }
+
+  .flex-row1-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: auto;
+    flex-direction: column;
+    margin-bottom: 36px;
+  }
+
+  .image1-mobile {
+    flex: 1;
+    min-height: 253px;
+    width: 90%;
+    max-height:  253px;
+    background: url(../assets/images/AboutUs.png) no-repeat center;
+    background-size: cover;
+    border-radius: 16px;
+    margin: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .text-container1-mobile {
+    flex: 1;
+    background: var(--bg-color);
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    padding: 24px;
+   flex-direction: column;
+   align-items: center;
+    gap: 14px;
+    align-self: stretch;
+    border-radius: 20px;
+    background: var(--Grey-10, #1A1A1A);
+    position:relative;
+    top:-70px;
+    width: 94%;
+  }
+
+  .l-text-e1-mobile {
+    color: var(--Absolute-White, #FFF);
+    text-align: center;
+    font-family: Tajawal;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  
+  /* Paragraph styling */
+  .paragraph1-mobile {
+    color: var(--Grey-70, #B3B3B3);
+    text-align: center;
+    font-family: Tajawal;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; 
+    max-height: 50vh;
+    color: var(--paragraph-color);
+    text-align: right;
+    overflow-y: scroll; /* vertical scrollbar */
+    /* scrollbar-width: none; Firefox */
+    -ms-overflow-style:#ccc; /* Internet Explorer 10+ */
+    direction: ltr;
+
+  }
+  
+  @media (min-width: 768px) and (max-width: 1356px) {
+    .image1-mobile {
+      flex: 1;
+      min-height: 453px;
+      width: 90%;
+      max-height:  453px;
+      background: url(../assets/images/AboutUs.png) no-repeat center;
+      background-size: cover;
+      border-radius: 16px;
+      margin: 10px;
+      margin-left: 30px;
+      margin-right: 10px;
+    }
+    .flex-row1-mobile {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      height: auto;
+      flex-direction: column;
+      margin-bottom: 0px;
+    }
+  }
+  

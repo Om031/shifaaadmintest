@@ -1,0 +1,56 @@
+.lottie-container {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.lottie-eid {
+  width: min(300px, 80vw);
+  height: min(200px, 25vh);
+  max-width: 100%;
+  margin: 0;
+}
+
+.lottie-discount {
+  width: min(120px, 20vw);
+  height: min(120px, 20vw);
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+  z-index: 2;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+@media (max-width: 600px) {
+  .lottie-eid {
+    width: min(250px, 70vw);
+    height: min(150px, 20vh);
+  }
+  
+  .lottie-discount {
+    width: min(80px, 15vw);
+    height: min(80px, 15vw);
+    right: 3%;
+  }
+}
+
+@media (max-width: 400px) {
+  .lottie-eid {
+    width: min(200px, 60vw);
+    height: min(120px, 15vh);
+  }
+  
+  .lottie-discount {
+    width: min(60px, 12vw);
+    height: min(60px, 12vw);
+    right: 2%;
+  }
+} 

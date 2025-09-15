@@ -1,0 +1,185 @@
+.eid-popup-content {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  direction: rtl;
+  overflow: hidden;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.eid-title {
+  font-family: 'Tajawal';
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 16px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  animation: scaleIn 0.6s ease-out forwards;
+}
+
+.eid-message {
+  font-family: 'Tajawal';
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 24px;
+  animation: fadeInUp 0.6s ease-out 0.3s forwards;
+  opacity: 0;
+}
+
+.discount-section {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 20px;
+  margin: 20px 0;
+  backdrop-filter: blur(5px);
+  animation: scaleIn 0.6s ease-out 0.6s forwards;
+  opacity: 0;
+}
+
+.discount-text {
+  font-family: 'Tajawal';
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 12px;
+  animation: slideInRight 0.6s ease-out 0.9s forwards;
+  opacity: 0;
+}
+
+.discount-amount {
+  font-family: 'Tajawal';
+  font-size: 48px;
+  font-weight: 800;
+  color: #FFF;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  margin: 16px 0;
+  animation: pulse 2s ease-in-out infinite;
+  animation-delay: 1.2s;
+  opacity: 0;
+  animation: scaleIn 0.6s ease-out 1.2s forwards, pulse 2s ease-in-out 1.8s infinite;
+}
+
+.discount-details {
+  font-family: 'Tajawal';
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  animation: fadeInUp 0.6s ease-out 1.5s forwards;
+  opacity: 0;
+}
+
+.discount-period {
+  font-family: 'Tajawal';
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0;
+  animation: fadeInUp 0.6s ease-out 1.8s forwards;
+}
+
+.eid-wishes {
+  font-family: 'Tajawal';
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 24px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  animation: fadeInUp 0.6s ease-out 2.1s forwards;
+}
+
+.store-button {
+  font-family: 'Tajawal';
+  font-size: 20px;
+  font-weight: 600;
+  color: #4CBC8F;
+  background: white;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 40px;
+  margin-top: 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  animation: scaleIn 0.6s ease-out 2.4s forwards;
+}
+
+.store-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  background: #f8f8f8;
+}
+
+.store-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add shimmer effect to the background */
+.eid-popup-content::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    45deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.1) 50%,
+    transparent 100%
+  );
+  transform: rotate(45deg);
+  animation: shimmer 3s infinite linear;
+  pointer-events: none;
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  100% {
+    transform: translate(50%, 50%) rotate(45deg);
+  }
+} 

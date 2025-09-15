@@ -1,0 +1,47 @@
+/* PaymentFailed.css */
+.payment-failed-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #181818;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .payment-failed-image {
+    width: 30vw;
+    height: 10vh;
+    margin-bottom: 20px;
+  }
+  
+  .payment-failed-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #62cc90;
+  }
+  
+  .payment-failed-message {
+    font-size: 20px;
+    color: #b3b3b3;
+    margin-top: 10px;
+  }
+  
+  .payment-failed-button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #1c1c1c;
+    background: linear-gradient(90deg, #62cc90, #4cbc8f);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .payment-failed-button:hover {
+    background: linear-gradient(90deg, #4cbc8f, #62cc90);
+  }
+  

@@ -1,0 +1,127 @@
+:root {
+    --primary-color: #62cc90;
+    --text-color: #ffffff;
+    --background-color: #181818;
+    --border-radius: 16px;
+    --font-family: "Tajawal", sans-serif;
+  }
+  
+  .product-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    color: var(--text-color);
+    border-radius: var(--border-radius);
+    max-width: 1000px;
+    height: 95vh;
+    margin: auto;
+    position: relative;
+    left:20vw;
+  }
+  
+  .product-image img {
+    width: 200px;
+    height: auto;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+  }
+  
+  .product-info {
+    flex: 1;
+    font-family: var(--font-family);
+  }
+  
+  .product-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--text-color);
+  }
+  
+  .product-main-description {
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 1.5;
+  }
+  
+  .product-extra-description {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #fff;
+    font-style: italic;
+  }
+  
+  .product-how-to-use {
+    margin-top: 20px;
+    padding: 10px;
+    background: var(--background-color);
+    color: var(--primary-color);
+    border-radius: var(--border-radius);
+    text-align: center;
+  }
+  
+  .product-ingredients {
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .product-ingredients-title {
+    font-size: 18px;
+    color: var(--background-color);
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: var(--border-radius);
+    text-align: center;
+    transition: 0.3s;
+  }
+  
+  .product-ingredients-title:hover {
+    background: rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-ingredients-list {
+    list-style: none;
+    padding: 10px;
+    background: var(--background-color);
+    border-radius: var(--border-radius);
+    margin-top: 10px;
+  }
+  
+  .product-ingredients-list li {
+    padding: 5px 0;
+    text-align: center;
+    color: var(--primary-color);
+  }
+  
+  .no-ingredients {
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+  }
+  
+  .product-price {
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    z-index: 444;
+  }
+  
+  .add-to-cart2 {
+    min-width: 232px;
+    padding: 12px;
+    height: 60px;
+    background: var(--primary-color);
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .add-to-cart:hover {
+    background: #3b9b74;
+  }
+  

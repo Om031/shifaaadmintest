@@ -1,0 +1,117 @@
+/* PaymentMethod.css */
+.payment-method-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #181818;
+    text-align: center;
+    color: #ffffff;
+    font-family: var(--default-font-family);
+    background: var(--bg-color);
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    height:100vh;
+    width: 90vw;
+    position:absolute;
+    top:0;
+    right: 0;
+    z-index: 0;
+    padding-top: 20px;
+  }
+  
+  /* PaymentMethod.css */
+.payment-method-container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #181818;
+  text-align: center;
+  color: #ffffff;
+  font-family: var(--default-font-family);
+  background: var(--bg-color);
+  color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+  height:100vh;
+  width: 50vw;
+  position:absolute;
+  top:0;
+  right: 0;
+  z-index: 0;
+  padding-top: 20px;
+}
+
+  .payment-method-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #62cc90;
+    margin-bottom: 30px;
+  }
+  
+  /* Stack buttons vertically */
+  .buttons-container22 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width:300px;
+    gap: 20px;
+  }
+  
+  .payment-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background: #000000;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 3px solid transparent;
+  }
+  
+  .payment-option:hover {
+    transform: scale(1.05);
+  }
+  
+  .payment-option.selected {
+    border: 3px solid #62cc90;
+  }
+  
+  .payment-icon {
+    font-size: 60px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .payment-text {
+    font-size: 20px;
+    color: #b3b3b3;
+  }
+  
+  /* Move the button to the bottom */
+  .back-button111 {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #1c1c1c;
+    background: linear-gradient(90deg, #62cc90, #4cbc8f);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 250px;
+  }
+  
+  .back-button:hover {
+    background: linear-gradient(90deg, #4cbc8f, #62cc90);
+  }
+  

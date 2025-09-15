@@ -1,0 +1,124 @@
+.product-list-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    min-width:  300px; /* Ensures only one product is visible */
+    margin: auto;
+    overflow: hidden; /* Hides extra items */
+}
+.product-list-container1 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 70%;
+    max-width: 300px; /* Ensures only one product is visible */
+    margin: auto;
+    overflow: hidden; /* Hides extra items */
+}
+
+.products-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 200px;
+    transition: transform 0.4s ease-in-out;
+}
+
+.product-item2 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 50%;
+    margin: 5px 10px;
+    text-align: center;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: #181818;
+    border-radius: 16px;
+
+    /* transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; */
+
+}
+
+/* .product-item:hover {
+    background-color: #ccc;
+} */
+
+.product-image2 {
+    width: 40%;
+    height: 180px;
+    border-radius: 10px;
+    z-index: 100;
+    border-width: 2px;
+    border-style: solid;
+}
+.product-image-active{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #62cc90;
+}
+
+.arrow {
+    width: 60px;
+    height: 60px;
+    background: url("../../assets/images/df27aeab-ecd1-4784-a71d-ae743a6d0d13.png") no-repeat center;
+    background-size: contain;
+    cursor: pointer;
+    z-index: 2;
+}
+.left-arrow{
+}
+.right-arrow {
+    right: 10px;
+}
+.item-pp{
+    background-color: aqua;
+    height: 100px;
+}
+
+.selection-box {
+    position: absolute;
+    bottom: -30px;
+    height: 30px;
+    width: auto;
+    padding: 0 20px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    pointer-events: none;
+  }
+  
+  .selection-text {
+    font-size: 14px;
+  }
+  
+  @media (min-width: 768px) and (max-width: 1380px) {
+  
+
+    .product-image2 {
+        width: 30%;
+        height: 240px;
+        border-radius: 10px;
+        z-index: 100;
+        border-width: 2px;
+        border-style: solid;
+    }
+    .product-item2 {
+        flex: 0 0 auto;
+        width: 100%;
+        height: 80%;
+        margin: 5px 10px;
+        text-align: center;
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        background-color: #181818;
+        border-radius: 16px;
+        /* transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; */
+    
+    }
+  }

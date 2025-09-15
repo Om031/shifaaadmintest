@@ -1,0 +1,35 @@
+.payment-failed-button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #1c1c1c;
+    background: linear-gradient(90deg, #62cc90, #4cbc8f);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .empty-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 90%;
+  }
+  .empty-text{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 27px;
+    margin-bottom: 27px;
+  }
+  .bagImg{
+    width: 76.12px;
+height: 97.92px;
+flex-shrink: 0;
+  }

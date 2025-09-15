@@ -1,0 +1,333 @@
+.text-container-501 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    z-index: 131;
+    width: 100vw;
+  }
+
+  .heading-511 {
+    flex-shrink: 0;
+    font-family: Tajawal, var(--default-font-family);
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 96px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 132;
+  }
+
+  .contact-us-521 {
+    position: relative;
+    color: #ffffff;
+    font-family: Tajawal, var(--default-font-family);
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 96px;
+    text-align: right;
+  }
+
+  .question1 {
+    position: relative;
+    color: #62cc90;
+    font-family: Tajawal, var(--default-font-family);
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 96px;
+    text-align: right;
+  }
+  .space-531 {
+    position: relative;
+    color: #ffffff;
+    font-family: Tajawal, var(--default-font-family);
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 96px;
+    text-align: right;
+  }
+
+  .message-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 80vh;
+   
+  }
+
+  .phone-number1{
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background: var(--input-bg);
+    color: white;
+    font-size: 20px;
+    width:25%;
+    border-bottom-color: #62cc90;
+    border-bottom-width: 2px;
+  }
+  .name1{
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background: var(--input-bg);
+    color: white;
+    font-size: 20px;
+    width:25%;
+    border-bottom-color: #62cc90;
+    border-bottom-width: 2px;
+  }
+  .email1{
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background: var(--input-bg);
+    color: white;
+    font-size: 20px;
+    width:25%;
+    border-bottom-color: #62cc90;
+    border-bottom-width: 2px;
+  }
+  .flex-row-d-54111{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   width: 100vw;
+   height: 10vh;
+  }
+
+  .message233{
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background: var(--input-bg);
+    color: white;
+    font-size: 20px;
+    height: 30vh;
+    width: 80%;
+    border-bottom-color: #62cc90;
+    border-bottom-width: 2px;
+  }
+
+  .message-container112{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width:100vw;
+   }
+
+   .green-button-59111 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 319px;
+    height: 89px;
+    padding: 20px 30px 20px 30px;
+    background: linear-gradient(90deg, #62cc90, #4cbc8f);
+    z-index: 140;
+    border-radius: 82px;
+    color: white;
+    font-size: 24px;
+    cursor:pointer;
+  }
+  .green-button-59111:hover {
+    background: linear-gradient(90deg, #4cbc8f, #4cbc8f);
+  }
+
+  .contactus-container{
+    background: url(../../assets/images/back1.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .flex-row-d-54111-mobile{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 100vw;
+    margin-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+   }
+
+   .phone-number2{
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background: var(--input-bg);
+    font-family: Tajawal;
+    color: white;
+    font-size: 16px;
+    width: 90%;
+    padding:16px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    border-radius: 88px;
+    background: var(--Grey-10, #1A1A1A);
+  }
+  .phone-number2::placeholder {
+    color: white; /* Change to your preferred color */
+    opacity: 1; /* Ensures full color visibility */
+  }
+  
+  .name2{
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background: var(--input-bg);
+    font-family: Tajawal;
+    color: white;
+    font-size: 16px;
+    width: 90%;
+    padding:16px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    border-radius: 88px;
+    background: var(--Grey-10, #1A1A1A);
+  }
+  .name2::placeholder {
+    color: white; /* Change to your preferred color */
+    opacity: 1; /* Ensures full color visibility */
+  }
+  
+  .email2{
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background: var(--input-bg);
+    font-family: Tajawal;
+    color: white;
+    font-size: 16px;
+    width: 90%;
+    padding:16px;
+    margin-bottom: 16px;
+    border-radius: 88px;
+    text-align: right;
+    font-weight: 700;
+   line-height: normal;
+   background: var(--Grey-10, #1A1A1A);
+  }
+  .email2::placeholder {
+    color: white; /* Change to your preferred color */
+    opacity: 1; /* Ensures full color visibility */
+  }
+  
+  .message-form-mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90vw;
+    height: 80vh;
+    background-color: red;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid var(--Grey-15, #262626);
+    background: var(--Grey-11, #1C1C1C);
+  }
+
+  .message233-mobile{
+    width: 90%;
+    display: flex;
+height: 133px;
+padding: 16px;
+justify-content: center;
+align-items: flex-start;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid var(--Grey-15, #262626);
+background: var(--Grey-10, #1A1A1A);
+color: var(--Absolute-White, #FFF);
+text-align: right;
+font-family: Tajawal;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+
+  .message233-mobile::placeholder {
+    color: white; /* Change to your preferred color */
+    opacity: 1; /* Ensures full color visibility */
+  }
+
+
+  .green-button-59111-mobile {
+      display: flex;
+  width: 290px;
+  height: 51px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 82px;
+  background: linear-gradient(90deg, #A9D15A 0%, #4CBC8F 100%);
+  color: var(--Grey-11, #1C1C1C);
+text-align: center;
+font-family: Tajawal;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+cursor: pointer;
+  }
+  
+  .green-button-59111-mobile:hover{
+    background: linear-gradient(90deg, #4CBC8F 0%, #4CBC8F 100%);
+  }
+
+  .text-container-501-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 131;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .heading-511-mobile {
+    flex-shrink: 0;
+    font-family: Tajawal, var(--default-font-family);
+    font-weight: 800;
+    text-align: center;
+    width: 100%;
+    z-index: 0;
+    margin-bottom: 16px;
+    margin-top: 30px;
+  }
+
+  .contact-us-521-mobile {
+    color: var(--Absolute-White, #FFF);
+    text-align: center;
+    font-family: Tajawal;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .question-mobile {
+    color: #A9D15A;
+    font-family: Tajawal;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .space-531-mobile {
+    position: relative;
+    color: #ffffff;
+    font-family: Tajawal, var(--default-font-family);
+    font-size: 80px;
+    font-weight: 800;
+    text-align: right;
+  }
+

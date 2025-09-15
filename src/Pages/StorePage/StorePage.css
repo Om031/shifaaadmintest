@@ -1,0 +1,748 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container1 {
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+  }
+  
+  .main-container1,
+  .main-container1 * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+
+  .header-11111{
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    z-index: 9;
+    height: 100px;
+    
+  }
+  
+  .main-container1 {
+    width: 100vw;
+    margin: 0 auto;
+    background: #181818;
+    overflow: hidden;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    position: relative;
+    width: 358px;
+    height: 60px;
+    margin: 21px 0 0 16px;
+    padding: 14px 14px 14px 24px;
+    background: #1c1c1c;
+    border: 1px solid #262626;
+    border-radius: 100px;
+  }
+  .group {
+    flex-shrink: 0;
+    position: relative;
+    width: 78.51px;
+    height: 29.937px;
+    background: url(https://static.codia.ai/image/2025-03-19/c3301f60-2107-421e-b1e9-285e245addc0.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 1;
+  }
+  .button {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 56px;
+    padding: 6px 14px 6px 14px;
+    background: linear-gradient(90deg, #a7d05b, #4dbc8e);
+    z-index: 2;
+    border-radius: 82px;
+  }
+  .icon {
+    flex-shrink: 0;
+    position: relative;
+    width: 28px;
+    height: 28px;
+    background: url(https://static.codia.ai/image/2025-03-19/c7f038cd-0a82-4c07-959c-78ed8ae723cb.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 3;
+    overflow: hidden;
+  }
+  .flex-row-ea {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+    width:100%;
+    padding-left: 30px;
+    padding-right: 20px;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+    z-index: 0;
+  }
+
+  .focus-shape {
+    width: 135px;
+    color: #1c1c1c;
+    font-family: Tajawal, var(--default-font-family);
+    text-align: right;
+    width:100%;
+    margin-top: 5px;
+    padding-right: 10px;
+    overflow: hidden;
+color: #1C1C1C;
+
+text-align: right;
+text-overflow: ellipsis;
+white-space: nowrap;
+font-family: Tajawal;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 150%; 
+  }
+  .price {
+    width: 135px;
+    color: #1c1c1c;
+    font-family: Tajawal, var(--default-font-family);
+    text-align: right;
+    width:100%;
+    margin-top: 5px;
+    padding-right: 10px;
+    color: #1C1C1C;
+
+text-align: right;
+font-family: Tajawal;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+  .green-button1111 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 139px;
+    height: 35px;
+    padding: 20px 30px 20px 30px;
+    background: linear-gradient(90deg, #62cc90, #4cbc8f);
+    z-index: 36;
+    border-radius: 82px;
+  }
+  .text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 106px;
+    height: 14px;
+    color: #1c1c1c;
+    font-family: Tajawal, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 37;
+  }
+  .product-default-sale-1 {
+    flex-shrink: 0;
+    position: relative;
+    width: 167px;
+    height: 233px;
+    background: url(https://static.codia.ai/image/2025-03-19/f414db5b-f25f-42bc-9685-8532c490ad54.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 5;
+  }
+  .free-pill-bottle-mockup-2 {
+    position: relative;
+    width: 112.813px;
+    height: 129.411px;
+    margin: 9.89px 0 0 31px;
+    background: url(https://static.codia.ai/image/2025-03-19/d652927a-9afb-4e74-a039-0345e6efb8be.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 12;
+  }
+  .focus-on-shape {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    width: 135px;
+    height: 15px;
+    margin: -1.302px 0 0 18px;
+    color: #1c1c1c;
+    font-family: Tajawal, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 15px;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    z-index: 7;
+    overflow: hidden;
+  }
+  .price-3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    width: 135px;
+    height: 14px;
+    margin: 8px 0 0 18px;
+    color: #1c1c1c;
+    font-family: Tajawal, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 8;
+  }
+  .green-button-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: relative;
+    width: 139px;
+    height: 35px;
+    margin: 8px 0 0 14px;
+    padding: 20px 30px 20px 30px;
+    background: linear-gradient(90deg, #62cc90, #4cbc8f);
+    z-index: 9;
+    border-radius: 82px;
+  }
+  .text-5 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 106px;
+    height: 14px;
+    color: #1c1c1c;
+    font-family: Tajawal, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 10;
+  }
+  .flex-row-ac {
+    position: relative;
+    width: 352px;
+    height: 239px;
+    margin: 15px 0 0 16px;
+    z-index: 60;
+  }
+  .product-default-sale-6 {
+    position: absolute;
+    width: 167px;
+    height: 233px;
+    top: 0;
+    left: 0;
+    background: url(https://static.codia.ai/image/2025-03-19/2b02e14c-0fcf-456d-9b59-939958463b0a.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 41;
+  }
+  .free-pill-bottle-mockup-7 {
+    position: relative;
+    width: 112.813px;
+    height: 129.411px;
+    margin: 9.89px 0 0 31px;
+    background: url(https://static.codia.ai/image/2025-03-19/61c7d4cb-333f-46ce-9924-0f4b1b4d6488.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 48;
+  }
+  .focus-on-shape-8 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    width: 135px;
+    height: 15px;
+    margin: -1.302px 0 0 18px;
+    color: #1c1c1c;
+    font-family: Tajawal, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 15px;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    z-index: 43;
+    overflow: hidden;
+  }
+  .price-9 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    width: 135px;
+    height: 14px;
+    margin: 8px 0 0 18px;
+    color: #1c1c1c;
+    font-family: Tajawal, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 44;
+  }
+  .green-button-a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 139px;
+    height: 35px;
+    top: 183px;
+    left: 14px;
+    padding: 20px 30px 20px 30px;
+    background: linear-gradient(90deg, #62cc90, #4cbc8f);
+    z-index: 45;
+    border-radius: 82px;
+  }
+  .add-to-cart {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 106px;
+    height: 14px;
+    color: #1c1c1c;
+    font-family: Tajawal, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 46;
+  }
+  .green-button-b {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 202px;
+    left: 40px;
+    padding: 20px 30px 20px 30px;
+    background: #ffffff;
+    z-index: 61;
+    border-radius: 82px;
+  }
+  .quantity {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 8px;
+    height: 14px;
+    color: #1c1c1c;
+    font-family: Tajawal, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 62;
+  }
+  .product-default-sale-not-added {
+    position: absolute;
+    width: 167px;
+    height: 233px;
+    top: 0;
+    left: 185px;
+    background: url(https://static.codia.ai/image/2025-03-19/609d69fc-de6d-42b0-b725-c4a591fc7f74.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 14;
+  }
+  .free-pill-bottle-mockup-c {
+    position: relative;
+    width: 112.813px;
+    height: 129.411px;
+    margin: 9.89px 0 0 31px;
+    background: url(https://static.codia.ai/image/2025-03-19/cf47631b-b5d4-46e7-af23-706b62929f1d.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 21;
+  }
+  .focus-on-shape-d {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    width: 135px;
+    height: 15px;
+    margin: -1.302px 0 0 18px;
+    color: #1c1c1c;
+    font-family: Tajawal, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 15px;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    z-index: 16;
+    overflow: hidden;
+  }
+  .price-e {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    width: 135px;
+    height: 14px;
+    margin: 8px 0 0 18px;
+    color: #1c1c1c;
+    font-family: Tajawal, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 17;
+  }
+  .green-button-f {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: relative;
+    width: 139px;
+    height: 35px;
+    margin: 8px 0 0 14px;
+    padding: 20px 30px 20px 30px;
+    background: linear-gradient(90deg, #62cc90, #4cbc8f);
+    z-index: 18;
+    border-radius: 82px;
+  }
+  .add-to-cart-10 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 106px;
+    height: 14px;
+    color: #1c1c1c;
+    font-family: Tajawal, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 19;
+  }
+  .union {
+    position: absolute;
+    width: 28px;
+    height: 26px;
+    top: 213px;
+    left: 23px;
+    background: url(https://static.codia.ai/image/2025-03-19/2a148730-7b5e-453f-a4d7-c079562df603.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 60;
+  }
+  .flex-row-b {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 352px;
+    height: 233px;
+    margin: 9px 0 0 16px;
+    z-index: 50;
+  }
+  .product-default-sale-11 {
+    flex-shrink: 0;
+    position: relative;
+    width: 167px;
+    height: 233px;
+    background: url(https://static.codia.ai/image/2025-03-19/edd4f0d8-89b1-42e8-ba02-a9ecce23be07.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 50;
+  }
+  .free-pill-bottle-mockup-12 {
+    position: relative;
+    width: 112.813px;
+    height: 129.411px;
+    margin: 9.89px 0 0 31px;
+    background: url(https://static.codia.ai/image/2025-03-19/9f8456cf-0ce5-41b8-9ecc-57480c35c670.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 57;
+  }
+  .focus-on-appearance {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    width: 135px;
+    height: 15px;
+    margin: -1.302px 0 0 18px;
+    color: #1c1c1c;
+    font-family: Tajawal, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 15px;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    z-index: 52;
+    overflow: hidden;
+  }
+  .price-13 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    width: 135px;
+    height: 14px;
+    margin: 8px 0 0 18px;
+    color: #1c1c1c;
+    font-family: Gabarito, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 53;
+  }
+  .green-button-14 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: relative;
+    width: 139px;
+    height: 35px;
+    margin: 8px 0 0 14px;
+    padding: 20px 30px 20px 30px;
+    background: linear-gradient(90deg, #62cc90, #4cbc8f);
+    z-index: 54;
+    border-radius: 82px;
+  }
+  .add-to-cart-15 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 106px;
+    height: 14px;
+    color: #1c1c1c;
+    font-family: Tajawal, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 55;
+  }
+  .product-not-added {
+    flex-shrink: 0;
+    position: relative;
+    width: 167px;
+    height: 233px;
+    background: url(https://static.codia.ai/image/2025-03-19/e97369c3-4bd3-481e-9062-f8d7da7d491c.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 23;
+  }
+  .free-pill-bottle {
+    position: relative;
+    width: 112.813px;
+    height: 129.411px;
+    margin: 9.89px 0 0 31px;
+    background: url(https://static.codia.ai/image/2025-03-19/566bbc38-8200-4db9-bce8-a350d2fe85d3.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 30;
+  }
+  .focus-on-shape-16 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    width: 135px;
+    height: 15px;
+    margin: -1.302px 0 0 18px;
+    color: #1c1c1c;
+    font-family: Tajawal, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 15px;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    z-index: 25;
+    overflow: hidden;
+  }
+  .price-17 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    width: 135px;
+    height: 14px;
+    margin: 8px 0 0 18px;
+    color: #1c1c1c;
+    font-family: Gabarito, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 26;
+  }
+  .green-button-18 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: relative;
+    width: 139px;
+    height: 35px;
+    margin: 8px 0 0 14px;
+    padding: 20px 30px 20px 30px;
+    background: linear-gradient(90deg, #62cc90, #4cbc8f);
+    z-index: 27;
+    border-radius: 82px;
+  }
+  .add-to-cart-19 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 106px;
+    height: 14px;
+    color: #1c1c1c;
+    font-family: Tajawal, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 28;
+  }
+
+  .titleContainer{
+    padding-left:20px;
+    padding-right: 20px;
+    width:100%;
+    margin-top: 10px;
+  }
+  .secondTitle{
+    color: #A9D15A;
+    text-align: right;
+    font-family: Tajawal;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; 
+  }
+  .title{
+    color: var(--Absolute-White, #FFF);
+text-align: right;
+font-family: Tajawal;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+  }
+
+  .free-pill-bottle-mockup11111 {
+    width: 110.813px;
+    height: 130.411px;
+    z-index: 35;
+  }
+
+  .product-default-sale {
+    width: 167px;
+    height: 253px;
+    z-index: 32;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    z-index: 35;
+  }
+  .white-section{
+    background-color: white;
+    height: 40%;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 35;
+  }
+  .green-section{
+    background-color:#A9D15A;
+    height: 60%;
+    width: 100%; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 35;
+  }
+
+  

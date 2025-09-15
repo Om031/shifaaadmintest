@@ -1,0 +1,337 @@
+{
+  "en": {
+    "header": {
+      "contactUs": "Contact Us",
+      "faq": "FAQ",
+      "articles": "Articles",
+      "aboutUs": "About Us",
+      "homePage": "Home Page",
+      "store": "Store"
+    },
+    "mainText": {
+    "greenTitle": "Every step closer to nature",
+    "whiteTitle": "is a step towards healing",
+    "btn1": "Buy Now",
+    "btn2": "Add to Cart",
+    "description": "Discover the power of natural healing with our premium organic products. Every step closer to nature is a step towards healing.",
+    "badge": "100% Natural & Organic",
+    "bestSeller": "Best Seller",
+    "features": {
+      "natural": "100% Natural Ingredients",
+      "fastShipping": "Fast Delivery",
+      "quality": "High Quality"
+    }
+    },
+    "greenZone": {
+      "info": "Additional Information",
+      "first1": "There is participation",
+      "first2": "Guinea launch strike",
+      "first3": "In there is participation",
+      "first4": "Strike in there is participation"
+    },
+    "about": {
+      "sectionTitle": "About Us",
+      "paragraphs": [
+        "Everything started with a simple yet profound and essential question:",
+        "Why do many people feel that their energy is incomplete, despite following a healthy lifestyle?",
+        "The idea of Shifa began when the founders noticed that many people suffer from a lack of energy, balance, and overall health in their daily lives. It became clear that traditional solutions were not enough to keep up with the fast-paced life. The question was simple: how can a person return to nature to improve their health and feel balanced again?",
+        "Why did we choose the name \"Shifa\"?",
+        "Choosing the name \"Shifa\" was not a random decision, but rather a reflection of our vision and mission. From the very beginning, our goal was not just to produce dietary supplements, but to provide natural solutions that support the body in restoring its balance and strength in a natural and effective way.",
+        "The word \"Shifa\" carries a deeper meaning than just treatment or supplements—it is a journey of regaining wellness, balance, and the natural energy that every human being needs to live their best life.",
+        "We believe that the body has a natural ability to heal and regenerate, but it needs the right support. This is where we come in—providing pure products inspired by nature that give the body the essential elements it needs to function efficiently, without resorting to artificial substances or temporary solutions.",
+        "Our goal was clear from the start:",
+        "For this reason, we chose the name \"Shifa\"—because it represents everything we believe in and conveys our message with simplicity and clarity."
+      ]
+    },
+    "articles":{
+      "title":"Articles",
+      "secondTitle":"Reliable information and health tips for a better life."
+    },
+    "faq": {
+    "title": "Frequently Asked Questions",
+    "secondTitle": "Everything you need to know about our products and how to use them.",
+    "btn": "Show More"
+  },
+  "contactUs": {
+    "heading": "Stay in Touch with Us",
+    "subHeading": "We are here to answer every",
+    "question": "Question",
+    "phonePlaceholder": "Phone Number",
+    "emailPlaceholder": "Email",
+    "namePlaceholder": "Name",
+    "messagePlaceholder": "Message",
+    "submitButton": "Send",
+    "successMessage":"Email successfully sent!",
+    "errorMessage":"There was an error sending the email"
+  },
+  "footer": {
+    "homePage": "Home Page",
+    "aboutUs": "About Us",
+    "articles": "Articles",
+    "faq": "Frequently Asked Questions",
+    "contactUs": "Contact Us",
+    "email": "hello@gmail.com",
+    "phone": "+09 793 24 259",
+    "location": "Somewhere in the World",
+    "allRightsReserved": "All Rights Reserved",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "cart":{
+    "title":"Cart",
+    "empty":"Shopping Cart is Empty",
+    "emptyDescription":"Start adding products to the shopping cart",
+    "item":"item",
+    "items":"items",
+    "total":"Total Amount",
+      "continue":"Continue Shopping",
+      "totalB":"Total",
+      "deTotal":"Delivery",
+      "coupon":"Coupon",
+       "conShop":"Continue Shopping",
+       "clearCart":"Clear Cart",
+       "proceedToCheckout":"Proceed to Checkout",
+       "customerInfo":"Customer Information",
+       "address":"Address",
+       "mobile":"Mobile Phone",
+       "customerName":"Customer Name",
+       "email":"Email (Invoice)",
+       "area":"Area",
+       "addressNote":"Notes for Delivery",
+       "marketing":"I agree to use my email to receive electronic messages, marketing content and exclusive offers.",
+       "policy":"By continuing, I agree to",
+       "policy2":"of the site",
+             "policy3":"Terms of Use",
+       "policy4":"and Privacy Policy",
+       "formButton":"Complete Payment",
+       "discount":"Discount",
+         "seeMore":"Additional Information"
+  }
+  },
+  "ar": {
+    "header": {
+      "contactUs": "تواصل معنا",
+      "faq": "الأسئلة المتكررة",
+      "articles": "مقالات",
+      "aboutUs": "نبذة عنا",
+      "homePage": "الصفحة الرئيسية",
+      "store": "المتجر"
+    },
+    "mainText": {
+      "greenTitle": "كل خطوة أقرب إلى الطبيعة",
+      "whiteTitle": "هي خطوة نحو الشفاء",
+      "btn1": "الشراء الان",
+      "btn2": "اضافة لسلة الشراء",
+      "description": "اكتشف قوة الشفاء الطبيعي مع منتجاتنا العضوية المتميزة. كل خطوة أقرب إلى الطبيعة هي خطوة نحو الشفاء.",
+      "badge": "طبيعي وعضوي 100%",
+      "bestSeller": "الأكثر مبيعاً",
+      "features": {
+        "natural": "مكونات طبيعية 100%",
+        "fastShipping": "توصيل سريع",
+        "quality": "جودة عالية"
+      }
+    },
+    "greenZone":{
+      "info":"معلومات اضافية",
+      "first1":"هناك مشاركة",
+      "first2":"غينيا إنطلاق ضرب",
+      "first3":"في هناك مشاركة",
+      "first4":"ضرب في هناك مشاركة"
+    },
+    "about": {
+      "sectionTitle": "نبذة عنا",
+      "paragraphs": [
+        "كل شيء بدأ من تساؤل بسيط لكنه جوهري وعميق:",
+        "لماذا يشعر الكثيرون أن طاقتهم غير مكتملة، رغم اتباعهم نمط حياة صحي؟",
+        "بدأت فكرة شفاء عندما لاحظ المؤسسون أن الكثير من الأشخاص يعانون من نقص الطاقة، التوازن، والصحة العامة في حياتهم اليومية. كان من الواضح أن الحلول التقليدية لا تكفي لمواكبة الحياة المتسارعة. كانت الفكرة ببساطة: كيف يمكن للإنسان أن يعود للطبيعة ليحسن من صحته ويشعر بالتوازن من جديد؟",
+        "لماذا اخترنا اسم \"شفاء\"؟",
+        "لم يكن اختيار اسم \"شفاء\" قراراً عشوائياً، بل كان انعكاساً لرؤيتنا ورسالتنا. منذ اللحظة الأولى، هدفنا ليس مجرد إنتاج مكملات غذائية، بل حلول طبيعية تدعم الجسم لاستعادة توازنه وقوته بطريقة فطرية وصحيحة.",
+        "كلمة \"شفاء\" تحمل في طياتها معنى أعمق من العلاج أو المكملات، إنها رحلة استعادة العافية، التوازن، والطاقة الطبيعية التي يحتاجها كل إنسان ليعيش حياته بأفضل حالاته.",
+        "آمنا بأن الجسم لديه قدرة طبيعية على التعافي والتجدد، لكنه يحتاج إلى الدعم الصحيح. وهنا جاء دورنا—أن نقدم منتجات نقية مستوحاة من الطبيعة، تمنح الجسم العناصر التي تساعده على العمل بكفاءة، دون اللجوء إلى المواد المصنعة أو الحلول المؤقتة.",
+        "هدفنا كان واضحاً منذ البداية:",
+        "لهذا السبب، اخترنا اسم \"شفاء\"—لأنه يمثل كل ما نؤمن به، ويوصل رسالتنا ببساطة ووضوح."
+      ]
+    },
+    "articles":{
+      "title":"مقالات",
+      "secondTitle":"معلومات موثوقة ونصائح صحية لحياة أفضل"
+    },
+    "faq":{
+      "title":"الأسئلة المتكررة",
+      "secondTitle":"كل ما تحتاج معرفته عن منتجاتنا واستخدامها",
+      "btn":"عرض المزيد"
+    },
+   
+      "contactUs": {
+        "heading": "كن على تواصل معنا",
+        "subHeading": "نحن هنا للاجابة عن كل",
+        "question": "سؤال",
+        "phonePlaceholder": "رقم الهاتف",
+        "emailPlaceholder": "الايميل",
+        "namePlaceholder": "الاسم",
+        "messagePlaceholder": "ألرساله",
+        "submitButton": "ارسال",
+        "successMessage":"تم إرسال البريد الإلكتروني بنجاح!",
+        "errorMessage":"حدث خطأ أثناء إرسال البريد الإلكتروني"
+      },
+      
+        "footer": {
+          "homePage": "الصفحة الرئيسية",
+          "aboutUs": "نبذة عنا",
+          "articles": "مقالات",
+          "faq": "الأسئلة المتكررة",
+          "contactUs": "تواصل معنا",
+          "email": "hello@gmail.com",
+          "phone": "+09 793 24 259",
+          "location": "Somewhere in the World",
+          "allRightsReserved": "جميع الحقوق محفوظة",
+          "privacyPolicy": "سياسة الخصوصية",
+          "termsOfService": "شروط الخدمة"
+        },
+      "cart":{
+        "title":"السلة",
+        "empty":"سلة التسوق فارغة",
+        "emptyDescription":"ابدأ بإضافة المنتجات إلى سلة التسوق",
+        "item":"عنصر",
+        "items":"عناصر",
+         "total":"المبلغ الكلي",
+         "totalB":"المجموع",
+         "deTotal":"التوصيل",
+         "coupon":"كوبون",
+           "continue":"تابع الشراء",
+       "conShop":"تابع التسوق",
+       "clearCart":"مسح السلة",
+       "proceedToCheckout":"متابعة الدفع",
+       "customerInfo":"معلومات الزبون",
+       "address":"عنوان",
+       "mobile":"الهاتف المحمول",
+       "customerName":"اسم الزبون",
+       "email":"ايميل (الفاتورة)",
+       "area":"منطقة",
+       "addressNote":"ملاحظات من اجل الارسالية",
+       "marketing":"أوافق على استخدام بريدي الإلكتروني لتلقي الرسائل الإلكترونية والمحتوى التسويقي والعروض الحصرية.",
+       "policy":"من خلال المتابعة، أوافق على " ,
+       "policy2":"الخاصة بالموقع",
+             "policy3":"شروط الاستخدام",
+       "policy4":"وسياسة الخصوصية",
+       "formButton":"اكمل الدفع",
+       "discount":"خصم",
+         "seeMore":"معلومات اضافية"
+      }
+      
+      
+    
+    
+  },
+  "he": {
+    "header": {
+      "contactUs": "צור קשר",
+      "faq": "שאלות נפוצות",
+      "articles": "מאמרים",
+      "aboutUs": "עלינו",
+      "homePage": "דף הבית",
+      "store": "חנות"
+    },
+    "mainText": {
+      "greenTitle": "כל צעד קרוב יותר לטבע",
+      "whiteTitle": "הוא צעד לקראת ריפוי",
+      "btn1": "קנה עכשיו",
+      "btn2": "הוסף לעגלה",
+      "description": "גלה את כוח הריפוי הטבעי עם המוצרים האורגניים המובחרים שלנו. כל צעד קרוב יותר לטבע הוא צעד לקראת ריפוי.",
+      "badge": "100% טבעי ואורגני",
+      "bestSeller": "הנמכר ביותר",
+      "features": {
+        "natural": "100% רכיבים טבעיים",
+        "fastShipping": "משלוח מהיר",
+        "quality": "איכות גבוהה"
+      }
+    },
+    "greenZone": {
+      "info": "מידע נוסף",
+      "first1": "יש השתתפות",
+      "first2": "גינאה פתיחת מכה",
+      "first3": "בתוך יש השתתפות",
+      "first4": "מכה בתוך יש השתתפות"
+    },
+    "about": {
+      "sectionTitle": "עלינו",
+      "paragraphs": [
+        "הכל התחיל משאלה פשוטה אך מהותית ועמוקה:",
+        "מדוע רבים מרגישים שהאנרגיה שלהם אינה מלאה, למרות שהם מנהלים אורח חיים בריא?",
+        "הרעיון של שיפוי החל כאשר המייסדים הבחינו כי אנשים רבים סובלים מחוסר באנרגיה, איזון ובריאות כללית בחייהם היומיומיים. היה ברור כי הפתרונות המסורתיים אינם מספיקים כדי לעמוד בקצב החיים המהיר. הרעיון היה פשוט: איך אפשר לחזור לטבע כדי לשפר את הבריאות ולהרגיש מחדש איזון?",
+        "מדוע בחרנו בשם \"שיפוי\"?",
+        "הבחירה בשם \"שיפוי\" לא הייתה מקרית, אלא שיקפה את החזון והמסר שלנו. מהרגע הראשון, המטרה שלנו לא הייתה רק לייצר תוספי תזונה, אלא להציע פתרונות טבעיים התומכים בגוף כדי להשיב את איזונו וכוחו בצורה טבעית ונכונה.",
+        "המילה \"שיפוי\" נושאת בתוכה משמעות עמוקה יותר מריפוי או תוספי תזונה – היא מסע של חזרה לבריאות, איזון ואנרגיה טבעית שכל אדם זקוק להם כדי לחיות את חייו בצורה הטובה ביותר.",
+        "האמנו שלגוף יש יכולת טבעית לריפוי והתחדשות, אך הוא זקוק לתמיכה נכונה. כאן אנו נכנסים לתמונה – אנו מספקים מוצרים טהורים בהשראת הטבע, המסייעים לגוף לעבוד ביעילות ללא צורך בחומרים מלאכותיים או פתרונות זמניים.",
+        "המטרה שלנו הייתה ברורה מההתחלה:",
+        "לכן, בחרנו בשם \"שיפוי\" – כי הוא מייצג את כל מה שאנו מאמינים בו ומעביר את המסר שלנו בצורה פשוטה וברורה."
+      ]
+    },
+    "articles":{
+      "title":"מאמרים",
+      "secondTitle":"מידע מהימן וטיפים בריאותיים לחיים טובים יותר"
+    },
+    "faq": {
+      "title": "שאלות נפוצות",
+      "secondTitle": "כל מה שאתה צריך לדעת על המוצרים שלנו והשימוש בהם",
+      "btn": "הצג עוד"
+    },
+    "contactUs": {
+      "heading": "שמור איתנו על קשר",
+      "subHeading": "אנחנו כאן כדי לענות על כל",
+      "question": "שאלה",
+      "phonePlaceholder": "מספר טלפון",
+      "emailPlaceholder": "אימייל",
+      "namePlaceholder": "שם",
+      "messagePlaceholder": "הודעה",
+      "submitButton": "שלח",
+      "successMessage":"האימייל נשלח בהצלחה!",
+      "errorMessage":"חלה שגיאה בשליחת האימייל"
+    },
+    "footer": {
+      "homePage": "דף הבית",
+      "aboutUs": "אודותינו",
+      "articles": "מאמרים",
+      "faq": "שאלות נפוצות",
+      "contactUs": "צור קשר",
+      "email": "hello@gmail.com",
+      "phone": "+09 793 24 259",
+      "location": "איפשהו בעולם",
+      "allRightsReserved": "כל הזכויות שמורות",
+      "privacyPolicy": "מדיניות פרטיות",
+      "termsOfService": "תנאי שימוש"
+    },
+    "cart":{
+      "title":"עגלה",
+      "empty":"עגלת הקניות ריקה",
+      "emptyDescription":"התחל להוסיף מוצרים לעגלת הקניות",
+      "item":"פריט",
+      "items":"פריטים",
+       "total":"סכום כולל",
+       "totalB":"סה\"כ",
+       "deTotal":"משלוח",
+       "coupon":"קופון",
+       "continue":"המשך קנייה",
+       "conShop":"המשך שופינג",
+       "clearCart":"נקה עגלה",
+       "proceedToCheckout":"המשך לתשלום",
+       "customerInfo":"פרטי לקוח",
+       "address":"כתובת",
+       "mobile":"טלפון נייד",
+       "customerName":"שם לקוח",
+       "email":"אימייל (חשבונית)",
+       "area":"אזור",
+       "addressNote":"הערות למשלוח",
+       "marketing":"אני מסכים לשימוש באימייל שלי לקבלת הודעות, תוכן שיווקי והצעות בלעדיות.",
+       "policy":"בהמשך, אני מסכים ל",
+       "policy2":"של האתר",
+       "policy3":"תנאי שימוש",
+       "policy4":"ומדיניות פרטיות",
+       "formButton":"השלם תשלום",
+       "discount":"הנחה",
+       "seeMore":"מידע נוסף"
+    }
+
+  
+  }
+}

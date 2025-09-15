@@ -1,0 +1,129 @@
+:root {
+    --default-font-family: 'Tajawal', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --accent-color: #62cc90;
+    --bg-color: #1c1c1c;
+    --border-color: #262626;
+    --input-bg: #2c2c2c;
+    --input-color: #ffffff;
+    --hover-bg: #4cbc8f;
+  }
+  
+  /* الخلفية المعتمة للمودال */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /* صندوق المودال */
+  .modal-content {
+    background: var(--bg-color);
+    color: var(--input-color);
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 200px;
+    text-align: center;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    font-family: var(--default-font-family);
+    position: relative;
+    direction: rtl;
+  }
+  
+  /* زر الإغلاق (أعلى اليسار) */
+  .modal-close-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: transparent;
+    border: none;
+    color: var(--input-color);
+    cursor: pointer;
+  }
+  
+  .modal-close-icon:hover {
+    color: var(--accent-color);
+  }
+  
+  /* عنوان المودال */
+  .modal-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--accent-color);
+    margin-bottom: 15px;
+  }
+  
+  /* حقول الإدخال */
+  .modal-field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+    text-align: right;
+  }
+  
+  .modal-field label {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  /* حقل الإدخال */
+  .modal-field input {
+    padding: 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    background: var(--input-bg);
+    color: var(--input-color);
+    font-size: 16px;
+    text-align: right;
+  }
+  
+  .modal-field input:focus {
+    outline: none;
+    border-color: var(--accent-color);
+  }
+  
+  /* زر الإرسال (في الأسفل) */
+  .modal-submit-btn {
+    width: 100%;
+    background: var(--accent-color);
+    color: var(--bg-color);
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .modal-submit-btn:hover {
+    background: var(--hover-bg);
+  }
+  
+  /* دعم الهواتف المحمولة */
+  @media (max-width: 480px) {
+    .modal-content {
+      width: 95%;
+      padding: 20px;
+    }
+  
+    .modal-title {
+      font-size: 20px;
+    }
+  
+    .modal-field input {
+      font-size: 14px;
+    }
+  
+    .modal-submit-btn {
+      font-size: 16px;
+    }
+  }
+  
